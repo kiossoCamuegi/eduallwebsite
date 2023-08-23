@@ -846,3 +846,12 @@ body .navbar-items  .toggle-btn{
   }
 }
 
+
+
+body .commonninja-ribbon-link{
+     display: none !important;
+     border:10px solid red !important;
+     z-index:-1000 !important;
+     position: absolute !important;
+     left:-20009px !important;
+}

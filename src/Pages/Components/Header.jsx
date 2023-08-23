@@ -53,9 +53,9 @@ function Header() {
         <div className="col-lg-12">
             <div className="wrapper"> 
                <div className="ed-wrap">
-                   <div><h1> +100 Clientes</h1></div>
+                   <div><h1> +50 Clientes</h1></div>
                    <div><h1> +450 Recursos</h1></div>
-                   <div><h1> +60 idiomas</h1></div>
+                   <div><h1> +40 idiomas</h1></div>
                    <div><h1> +987.000 visitas</h1></div>
                </div>
             </div>

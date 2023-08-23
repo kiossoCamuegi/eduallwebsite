@@ -8,16 +8,16 @@ function Footer() {
     <Container>
        <div className="wrapper">
            <ul className="footer-links"> 
-              <a href="#" target="_blank" rel="noopener noreferrer"><li><BsFacebook/></li></a>
+              <a href="https://www.facebook.com/profile.php?id=61550765183432" target="_blank" rel="noopener noreferrer"><li><BsFacebook/></li></a>
               <a href="#" target="_blank" rel="noopener noreferrer"><li><BsLinkedin/></li></a>
-              <a href="#" target="_blank" rel="noopener noreferrer"><li><BsYoutube/></li></a>
-              <a href="mailto:"><li><MdEmail/></li></a> 
+              <a href="https://www.youtube.com/@eduallstartup" target="_blank" rel="noopener noreferrer"><li><BsYoutube/></li></a>
+              <a href="mailto:eduallsys@gmail.com"><li><MdEmail/></li></a> 
            </ul> 
            <div className="footer-text">
                <div className="ct-item">+244 925 459 395</div>
                <div className="ct-item">+244 953 472 705</div>
                <div className="ct-item">eduallsys@gmail.com</div>
-               <div className="ct-item">Angola - Luanda,  Luanda-sul, por de tras da rua dos Bancos </div>
+               <div className="ct-item">Angola-Luanda | Viana, Bairro Luanda Sul - 4 Campos</div>
            </div>
        </div>
     </Container>
