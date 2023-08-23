@@ -834,4 +834,15 @@ body .navbar-items  .toggle-btn{
     body .header-text{
         padding-top:0px !important;
     }
+ 
 }
+
+
+@media screen and (max-width:1290px){
+  body .header-image{
+    max-width:800px !important;
+    border:2px solid red;
+    height:500px !important;
+  }
+}
+
