@@ -33,8 +33,8 @@ function Header() {
          <div className="header-content">
          <div className="wrapper">
             <div className="header-text"> 
-              <h1>Tudo que precisa para tornar a sua vida acadêmica  fácil. </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure ducimus quisquam sequi distinctio nulla! Explicabo ad exercitationem hic praesentium dolore repellendus incidunt numquam ullam nesciunt laudantium. Repellendus, excepturi eaque.</p>
+              <h1>Elevando a Educação e Capacitando Futuros. </h1>
+                <p>Desbloqueie o futuro da gestão educacional com o SOFTWARE de Gestão Escolar  EDUALLSYS  e encontre tudo o que precisa para gerir a sua Instituição de ensino de ponta a ponta.</p>
                 <button className="btn">Solicitar Demo <BsArrowRight/>  </button> 
             </div>  
             <div className="header-image">

@@ -16,12 +16,30 @@ function Description() {
            <div className="wrapper">
                 <div className="content">
                 <div className="block-text"> 
-                     <h1>A melhor plataforma para aprendizado e  gestão geral da  instituição</h1> 
-                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio in iste sint quidem eos asperiores. 
-                        Pariatur optio fuga repellat perferendis cum neque quibusdam est autem, assumenda, aliquam, doloribus enim 
-                        perspiciatis.
-                     </p>
+                     <h1>Por que escolher a eduallsys ao inves do papel ? </h1>  
+                     <ul>
+                         <li>
+                             <div className="title">1</div>
+                            <p>Eficiência sem esforço: dê adeus às tarefas administrativas demoradas, Complicadas economize papeis e tempo. O EDUALLSYS automatiza 
+                              atendimento, avaliação e comunicação com os alunos e encarregados de educação.</p>
+                         </li>
+                         <li>
+                             <div className="title">2</div>
+                            <p>Integração perfeita: A transição para o EDUALLSYS é perfeita – o nosso software integra-se facilmente aos seus sistemas existentes.
+                               Sua interface intuitiva garante que funcionários e alunos se adaptem rapidamente e prosperem.</p>
+                         </li>
+                         <li>
+                             <div className="title">3</div>
+                            <p>Segurança: Fique tranquilo sabendo que o software EDUALLSYS emprega medidas de segurança de alto nível. Nossa criptografia avançada e 
+                              protocolos seguros mantêm dados confidenciais protegidos contra qualquer acesso não autorizado.</p>
+                         </li>
+                         <li>
+                             <div className="title">4</div>
+                            <p>Sua Visão, Seu Sistema: Celebramos a singularidade de cada instituição. O EDUALLSYS pode ser adaptado às suas necessidades específicas,
+                               oferecendo uma solução personalizada que  complementa perfeitamente os seus processos.(Podemos ajustar a solução de acordo a sua instituição)
+                               </p>
+                         </li>
+                     </ul>
                   </div> 
                    <div className="ed-wrap">
                    <div className="block-image b1">
@@ -49,9 +67,8 @@ function Description() {
            padding:20px;
 
              .block-text{  
-                 padding-left:20px;
-                 max-width:1000px;
-                 text-align:center;
+                 padding-left:20px; 
+                 text-align:left;
                  margin:0 auto;
 
                   h1{
@@ -68,6 +85,42 @@ function Description() {
                      max-width:900px;
                      margin-bottom:40px;
                   }
+
+
+
+                   ul{
+                       display:flex;
+                       flex-wrap:wrap;
+                       padding:0px;
+                       margin-top:20px;
+                       justify-content:space-between;
+
+                       li{
+                          width:48%;
+                          display:flex;
+                          margin:10px 0px;
+
+                             .title{
+                                  width:40px;
+                                  height:40px;
+                                  min-width:40px;
+                                  min-height:40px;
+                                  display:flex;
+                                  align-items:center;
+                                  justify-content:center;
+                                  background:var(--ed-purple-light);
+                                  margin-right:10px;
+                                  display:flex;
+                                 align-items:center;
+                                 justify-content:center;
+                                 border-radius:100%;
+                                 font-size:20px;
+                                 color:#ffff;
+                             }
+                       }
+                   }
+
+
              }
 
           .ed-wrap{

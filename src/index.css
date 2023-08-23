@@ -757,6 +757,17 @@ body .navbar-items  .toggle-btn{
         padding-top:30px !important;
         padding-left:30px !important;
     }
+
+    body .ed-description ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: unset !important;
+    }
+
+
+    body .ed-description ul li{
+        width:100% !important;
+    }
      
 
     body .navbar-items  .toggle-btn{

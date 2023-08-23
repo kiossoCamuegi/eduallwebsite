@@ -9,7 +9,7 @@ function Info() {
                 <div className="block-text">
                 <h1>Assista o poder da melhor plataforma educacional da Galaxia</h1>
                  </div>
-                 <iframe   src="https://www.youtube.com/embed/59Yl8wIxMCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                   <iframe src="https://www.youtube.com/embed/owkX6ei8FYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                  </div>
            </div>
         </Container>
