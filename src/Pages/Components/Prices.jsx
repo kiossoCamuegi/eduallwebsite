@@ -9,6 +9,8 @@ function Prices() {
             title:"Padrão",
             popular:false,
             price:"89.999",
+            promo_price:"62.999",
+            percentage:"30%",
             description:"Tudo que você precisa para gerir a sua escola ou creche",
             features:[
                 {
@@ -161,6 +163,8 @@ function Prices() {
             title:"Prateado",
             popular:true,
             price:"139.999",
+            promo_price:"97.999",
+            percentage:"30%",
             description:"Tudo que você precisa para gerir o seu colegio",
             features:[
                 {
@@ -313,6 +317,8 @@ function Prices() {
             title:"Dourado",
             popular:false,
             price:"169.999",
+            promo_price:"50.999",
+            percentage:"70%",
             description:"Tudo que você precisa para gerir a sua instituição",
             features:[
                 {
@@ -480,7 +486,16 @@ function Prices() {
                         <div className="card-details">
                         <h2 className="title">{card.title}</h2>
                           <small className='description'>{card.description}</small>
-                          <h1 className="ed-flex"><small>Kz</small> {card.price}<small>/mensal</small></h1>
+                         {index ===  0 ? <h3 className='text-success'>{card.percentage +" de desconto por 2 meses"}</h3>   : ""} 
+                         {index ===  1 ? <h3 className='text-success'>{card.percentage +" de desconto por 2 meses"}</h3>   : ""} 
+                         {index ===  2 ? <h3 className='text-success'>{card.percentage +" de desconto por 2 meses"}</h3>   : ""} 
+                          
+                          <h1 className="ed-flex"><small>Kz</small> {card.promo_price}<small> / mensal</small></h1>
+                   
+                   <div className="old-price">Kz {card.price} / mensal</div>
+                         
+                           
+
                           <a href="#" target='_blank'><button className='btn'>Saiba mais</button></a>
                           <hr />
                           <div>
@@ -526,6 +541,9 @@ function Prices() {
                   font-weight:bolder;
              }
 
+
+             
+
              p{
                 color:var(--ed-grey-text);
                 font-size:16px;
@@ -566,9 +584,14 @@ function Prices() {
                   box-shadow:var(--ed-shadow-1); 
               }
 
-              .card-details{
-                padding:20px;
-              }
+             
+
+             .old-price{
+                text-decoration:line-through !important;
+                color:#2f1c6a; 
+                font-size:18px;
+             }
+
 
               h2.title{
                 font-size:20px;
@@ -601,6 +624,24 @@ function Prices() {
                         font-weight:500;
                     }
               }
+
+              .card-details{
+                padding:20px;
+
+                .promo{
+                    h1{
+                       font-size:18px !important;
+                       color:#2f1c6a;
+                    }
+                 }
+
+                 h3{
+                    font-size:18px;
+                    margin:10px 0px;
+                 }
+
+              }
+
 
               .block-data{
                 margin:30px 0px; 
