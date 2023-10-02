@@ -9,7 +9,7 @@ function Prices() {
             title:"Padrão",
             popular:false,
             price:"89.999",
-            promo_price:"63.999",
+            promo_price:"53.999",
             percentage:"40%",
             description:"Tudo que você precisa para gerir a sua escola ou creche",
             features:[
@@ -468,8 +468,6 @@ function Prices() {
             ]
         } 
     ];
-
-
 
     return (
        <div className="wrapper">
