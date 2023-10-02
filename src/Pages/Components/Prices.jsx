@@ -9,8 +9,8 @@ function Prices() {
             title:"Padrão",
             popular:false,
             price:"89.999",
-            promo_price:"62.999",
-            percentage:"30%",
+            promo_price:"63.999",
+            percentage:"40%",
             description:"Tudo que você precisa para gerir a sua escola ou creche",
             features:[
                 {
@@ -163,8 +163,8 @@ function Prices() {
             title:"Prateado",
             popular:true,
             price:"139.999",
-            promo_price:"97.999",
-            percentage:"30%",
+            promo_price:"63.999",
+            percentage:"55%",
             description:"Tudo que você precisa para gerir o seu colegio",
             features:[
                 {
@@ -317,8 +317,8 @@ function Prices() {
             title:"Dourado",
             popular:false,
             price:"169.999",
-            promo_price:"118.999",
-            percentage:"30%",
+            promo_price:"73.999",
+            percentage:"56%",
             description:"Tudo que você precisa para gerir a sua instituição",
             features:[
                 {
