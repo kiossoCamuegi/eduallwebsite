@@ -317,8 +317,8 @@ function Prices() {
             title:"Dourado",
             popular:false,
             price:"169.999",
-            promo_price:"50.999",
-            percentage:"70%",
+            promo_price:"118.999",
+            percentage:"30%",
             description:"Tudo que você precisa para gerir a sua instituição",
             features:[
                 {
@@ -475,7 +475,7 @@ function Prices() {
        <div className="wrapper">
          <Container className='ed-prices'>
             <div className="prices-text">
-               <h1>Os preçarios mais acessíveis  para os produtos mais incriveis já mas fornecidos</h1>  
+               <h1>Os preços mais acessíveis  para os produtos mais incriveis já mas fornecidos</h1>  
             </div>
             <br /><br />
              <section>
