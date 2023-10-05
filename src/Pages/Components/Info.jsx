@@ -7,7 +7,7 @@ function Info() {
            <div className="wrapper">
               <div className="block">
                 <div className="block-text">
-                <h1>Assista o poder da melhor plataforma educacional da Galaxia</h1>
+                <h1>Assista o poder da melhor plataforma educacional de Angola <img  style={{width:"40px",height:"40px",marginLeft:"10px"}} src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f1e6-1f1f4.svg" alt="" />  </h1>
                  </div>
                    <iframe src="https://www.youtube.com/embed/owkX6ei8FYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                  </div>
